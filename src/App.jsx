@@ -49,6 +49,7 @@ const App = () => {
 
               {page !== 10 && (
                 <Footer
+                className=''
                   page={page}
                   maxPage={maxPage}
                   totalPage={totalPage}

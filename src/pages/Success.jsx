@@ -4,6 +4,7 @@ const Success = () => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen">
       <div className="flex items-center gap-5 px-5 animate__animated animate__backInUp">
+        
         <svg
           width="24"
           height="24"
