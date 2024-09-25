@@ -353,7 +353,7 @@ ${soqol ? "Носите ли вы бороду?" : "Носите ли вы хи�
 Семейное положение: ${maritalStatus}
 Количество детей: ${childrenSCount}
 Готовы ли вы к переезду? ${migration}
-Возраст  ${isMale ? "будущая жена" : "будущий мужа"}: от ${age2[0]} до ${
+Возраст  ${isMale ? "будущей жены" : "будущего мужа"}: от ${age2[0]} до ${
         age2[1]
       }
 Характер:${character?.length > 0 && character.map((char) => " " + char)}${
@@ -364,13 +364,13 @@ ${soqol ? "Носите ли вы бороду?" : "Носите ли вы хи�
 Вес: ${weight} кг
 Образование: ${education}
 О себе: ${about}
-О ${isMale ? " будущая жена" : "будущем  муже"}: ${aboutTheFutureWife}
+О ${isMale ? " будущей жене" : "будущем  муже"}: ${aboutTheFutureWife}
 
 Номер в WhatsApp: [${telephoneNumber}](https://api.whatsapp.com/send?phone=${
         telephoneNumber[0] == 8
           ? "7" + telephoneNumber.slice(1)
           : telephoneNumber
-      }&text=NikahCompany)
+      }&text=NikahSpaceQuiz)
 Ссылка на Instagram: ${
         instagram ? `[${instagram}](https://instagram.com/${instagram})` : "Нет"
       }
