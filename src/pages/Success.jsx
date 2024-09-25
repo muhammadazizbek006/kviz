@@ -19,7 +19,7 @@ const Success = () => {
         </svg>
 
         <div>
-          <h1 className="text-2xl font-semibold">Успешный!</h1>
+          <h1 className="text-2xl font-semibold">Успешно!</h1>
           <p className="text-lg opacity-70">Ваша анкета отправлена на проверку</p>
         </div>
       </div>
