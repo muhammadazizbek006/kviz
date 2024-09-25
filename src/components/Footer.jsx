@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({ page = 1, updatePage = () => 1, totalPage, maxPage = 1 }) => {
   return (
-    <footer className="flex items-center h-24 border-t">
+    <footer className="flex items-center h-24 border-t ">
       <div className="flex items-start gap-5 container">
         <div className="grow">
           {/* done */}
