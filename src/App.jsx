@@ -29,11 +29,11 @@ const App = () => {
           index
           path="/"
           element={
-            <div className="h-screen">
+            <div className="relative min-h-screen flex flex-col">
               <Header />
 
               {/* main */}
-              <main className="container h-[calc(100%-176px)] py-4">
+              <main className="container flex-1 py-4 overflow-y-auto">
                 <div
                   ref={pageRef}
                   className="h-full overflow-y-auto scroll-hidden pb-12"
@@ -49,7 +49,7 @@ const App = () => {
 
               {page !== 10 && (
                 <Footer
-                className=''
+                  className="fixed bottom-0 left-0 w-full bg-white shadow-lg z-50"
                   page={page}
                   maxPage={maxPage}
                   totalPage={totalPage}
